@@ -1,0 +1,52 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="color-picker-wrap">
+                <input id="color-picker" class="color-picker" type="color"/>
+            </div>
+            <div class="custom-select-container">
+                <select class="dropdown-menu" id="color-mode-select">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome dark</option>
+                    <option value="monochrome-light">Monochrome light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <span class="custom-arrow">></span>
+            </div>
+            <button id="get-schm-btn" class="get-schm-btn">Get color scheme</button>
+        </header>
+        <main class="colors-container">
+             <div id="color-1" class="color-1"></div>
+             <div class="color-hex-wrap-1">
+                 <p id="color-hex-value-1"></p>
+             </div>
+             <div id="color-2" class="color-2"></div>
+             <div class="color-hex-wrap-2">
+                 <p id="color-hex-value-2"></p>
+             </div>
+             <div id="color-3" class="color-3"></div>
+             <div class="color-hex-wrap-3">
+                 <p id="color-hex-value-3"></p>
+             </div>
+             <div id="color-4" class="color-4"></div>
+             <div class="color-hex-wrap-4">
+                 <p id="color-hex-value-4"></p>
+             </div>
+             <div id="color-5" class="color-5"></div>
+             <div class="color-hex-wrap-5">
+                 <p id="color-hex-value-5"></p>
+             </div>    
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
